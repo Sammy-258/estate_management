@@ -1,0 +1,70 @@
+.sell-main-first-text{
+    font-size:2rem;
+    font-weight:600;
+}
+
+.form-text-sell{
+    font-size:2rem;
+    font-weight:600;
+}
+.row .col-lg-7{
+    
+    background-color: white;
+}
+.rowing{
+    border-radius: 15px;
+    height: 100% !important;
+    background-image: url("../images/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index:1;
+    box-shadow:10px 10px 5px rgba(0, 0, 0, 0.438);
+}
+.rowing::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgb(4, 71, 68);
+    opacity:.7;
+    z-index:-1;
+    border-radius: 15px;
+}
+.sell-section{
+    background-color: whitesmoke !important;
+
+}
+.second-col-for-form{
+    background-color: white !important;
+}
+/* .sell-section::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: white;
+    opacity:.9;
+    z-index:-1;
+   
+} */
+.sell-form-input{
+    background-color: rgba(238, 237, 237, 0.87) !important;
+    border:0.1px solid rgba(128, 128, 128, 0.452) !important;
+}
+
+.submit-form{
+    background-color: rgb(70, 161, 157) ;
+    color:white;
+    font-size:1rem !important;
+}
+.submit-form:hover{
+    background-color: rgb(10, 80, 76) !important;
+    color:white;
+    font-size:1rem;
+}
