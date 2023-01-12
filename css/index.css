@@ -231,7 +231,7 @@ body .second-home-overlay-small{
 
 .swiper {
     width: 98%;
-    height: 100%;
+    height: fit-content;
 }
 
 
